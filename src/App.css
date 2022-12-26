@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+.app__container {
+  position: relative;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app__social {
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  z-index: 999;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app__social div {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--color-blue);
+  margin: 0.25rem 0;
+  border: none;
+  cursor: pointer;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin-bottom: 10px;
+  transition: all 0.3s;
+}
+.app__social div:hover {
+  transform: scale(1.1);
+}
+.app__social div svg {
+  width: 22px;
+  height: 22px;
+  color: var(--color-white);
+}
+.phone-icon {
+  background-color: var(--color-black) !important;
+}
+.whats-icon {
+  background-color: var(--color-whats) !important;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--color-blue) !important;
 }

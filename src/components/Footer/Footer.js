@@ -13,7 +13,7 @@ function footer() {
     <footer>
       <div className="container footer__container">
         <div>
-          <div className="navbar-logo">
+          <div className="footer-logo">
             <Link to="/">
               <img src={logo} alt="Livre" loading="lazy" />
             </Link>
@@ -22,19 +22,19 @@ function footer() {
         <div className="footer__contact">
           <h2 className="footer__contact-title">Contact Us</h2>
           <div>
-            <div className="flex mb-2">
+            <div className="flex mb-5">
               <span className="footer__icon flex-center">
                 <BsFillTelephoneFill />
               </span>{" "}
-              <span>02315456654</span>
+              <span>003758035776</span>
             </div>
-            <div className="flex mb-2">
+            <div className="flex mb-5">
               <span className="footer__icon flex-center">
                 <AiOutlineMail />
               </span>{" "}
-              <span>test@gmail.com</span>
+              <span>mahmoud123.kh@icloud.com</span>
             </div>
-            <div className="flex mb-2">
+            <div className="flex mb-5">
               <span className="footer__icon flex-center">
                 <MdLocationOn />
               </span>{" "}
